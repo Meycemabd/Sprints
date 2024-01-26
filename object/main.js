@@ -95,6 +95,7 @@ var user = {
 };
 
 user.addFullNameProperty = (object) => {
-  let fullName = `${object.firstName} ${object.LastName}`;
+  let fullName = `${object.firstName} + ${object.LastName}`;
   return fullName
 }
+

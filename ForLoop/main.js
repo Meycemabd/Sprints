@@ -144,3 +144,58 @@ function countCharAtIndexWithWhile(string1,position,string2) {
     return result 
  } 
 
+
+
+ // EXTENTED
+// 1.Write a function called reverseString that takes a string as an input and returns that string in reverse.
+
+function reverseString(string) {
+    let result = ""
+    for(let i = string.length -1; i>= 0; i--){
+        result+= string[i]
+    }
+    return result
+ }  
+
+ // 2.Write a function called getIndexOf that takes two parameters, a string, and a character, and returns the first position of the character in that string.
+
+ function getIndexOf(string, char) {
+    for (let index = 0; index < string.length; index++) {
+        if (string[index] === char) {
+           return index
+        }
+        
+    }
+    return -1
+ } 
+ 
+ // IMMERSIVE
+ // 1.Write a function called sumEven that takes two numbers as parameters and returns the sum of all even numbers starting from num1 and excluding num2.
+
+ let sumEven1 = (num1,num2) =>{
+    
+    if (num1 % 2 !== 0) {
+        num1++
+    }
+    let sum = 0
+    for (let i = num1; i < num2 ; i+=2){
+        sum += i
+    }
+    return sum
+}
+
+// 2.Write a function called primeCounter that takes a number as a parameter and returns the amount of prime numbers that occur before it.
+
+let primeCounter = (number) => {
+    if(number/number && number / 1){
+        number++
+}
+    let result = 0
+    for (let i = 0; i < number; i++) {
+        result += result
+    }
+    return result
+}  
+
+
+
