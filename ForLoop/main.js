@@ -9,8 +9,8 @@ function sumOfN(n) {
    for(let i = 0;i<=n;i=i+1){
         result += i
    }
-   return result
- }  
+   return result 
+ } 
 
  //2.Write a function called factorialOfN 
  //that takes a whole number as a parameter 
@@ -25,7 +25,7 @@ function sumOfN(n) {
  }  
 
 
- //3.Write a function called repeatString
+ //?3.Write a function called repeatString
  //that takes two parameters, 
  //as string and a number, and returns 
  //that string the number of times 
@@ -186,16 +186,13 @@ function reverseString(string) {
 
 // 2.Write a function called primeCounter that takes a number as a parameter and returns the amount of prime numbers that occur before it.
 
-let primeCounter = (number) => {
-    if(number/number && number / 1){
-        number++
-}
-    let result = 0
-    for (let i = 0; i < number; i++) {
-        result += result
+function isPrime (n){
+    let prime = true
+    if (number === 1){
+        console.log("1 is neither prime nor composite number.")
     }
-    return result
-}  
+}
+
 
 
 
